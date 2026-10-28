@@ -1,0 +1,120 @@
+body {
+    background-color: #FFFBEA;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+.number-bg {
+    height: 30px;
+    width: 30px;
+    background-color: #FF6900;
+}
+
+/* ========== general ========== */
+/*========== navbar ==========*/
+nav .nav-icon {
+    background: linear-gradient(90deg, #FF5F00, #FE4821);
+}
+
+nav .right-nav img {
+    width: 40px;
+}
+
+nav .right-nav i {
+    transition: all 0.2s;
+}
+
+nav .right-nav i:hover {
+    color: #F54900 !important;
+    cursor: pointer;
+}
+
+/* ========== navbar ========== */
+/* ========== header ========== */
+header .food-rate {
+    left: 5%;
+    top: 5%;
+}
+
+header .container-fluid,
+nav .container-fluid {
+    width: 90%;
+}
+
+header .nav-pills .nav-link.active {
+    background-color: transparent;
+    color: #F54A00;
+    position: relative;
+}
+
+header .nav-pills .nav-link.active:hover {
+    color: #F54A00;
+}
+
+header .nav-pills .nav-link.active::before {
+    content: '';
+    width: 110%;
+    height: 2px;
+    background-color: #F54A00;
+    position: absolute;
+    bottom: -5px;
+    transform: translateX(-15%);
+}
+
+header .nav-pills .nav-link {
+    color: #6A7282;
+    transition: all 0.2s;
+}
+
+header .nav-pills .nav-link:hover {
+    color: #364153;
+}
+
+header .recipe-save,
+header .recipe-share {
+    transition: all 0.2s;
+}
+
+header .recipe-save:hover,
+header .recipe-share:hover {
+    background-color: #FFD6A7 !important;
+    cursor: pointer;
+}
+
+header .try-btn {
+    background: linear-gradient(90deg, #FF6700, #FB3034);
+    transition: all 0.2s;
+}
+
+header .try-btn:hover {
+    transform: scale(1.05);
+}
+
+header .food-content {
+    padding: 20px;
+}
+
+.navs-content {
+    max-height: 35vh;
+    overflow: auto;
+}
+
+.recipe-details {
+    min-height: 46.5vh;
+}
+
+.image-details {
+    bottom: 5%;
+    left: 2%;
+}
+
+header .d-header-image {
+    max-height: 558px;
+}
+
+header .header-image {
+    width: 992px;
+    max-height: 558px;
+}

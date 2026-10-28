@@ -1,0 +1,39 @@
+/* sm 576px -->      */
+@media screen and (min-width:576px) {}
+
+/* md 768px  -->    */
+@media screen and (min-width:768px) {}
+
+/* lg 992px  -->       */
+@media screen and (min-width:992px) {
+
+    header .container-fluid,
+    nav .container-fluid {
+        width: 75%;
+    }
+
+    .recipe .food-img img {
+        min-height: 86vh;
+        overflow: auto;
+    }
+
+    header .header-image {
+        height: 772px;
+    }
+
+    header .d-header-image {
+        max-height: 810px;
+    }
+
+    header .food-content {
+        padding: 40px;
+    }
+
+    .image-details {
+        left: 5%;
+    }
+
+}
+
+/* xl 1200px  -->       */
+@media screen and (min-width:1200px) {}
